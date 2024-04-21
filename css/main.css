@@ -309,7 +309,7 @@ div.search .search-input {
     justify-content: center;
     align-items: center;
     backdrop-filter: blur(20px);
-    visibility: hidden;
+    visibility: hidden; 
     opacity: 0;
     z-index: 100;
     transition: .5s;
