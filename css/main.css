@@ -308,7 +308,7 @@ div.search .search-input {
     display: flex;
     justify-content: center;
     align-items: center;
-    /* backdrop-filter: blur(20px); */
+    backdrop-filter: blur(20px);
     visibility: hidden;
     opacity: 0;
     z-index: 100;
@@ -318,7 +318,6 @@ div.search .search-input {
 .trailer.active {
     visibility: visible;
     opacity: 1;
-    backdrop-filter: blur(20px);
 }
 .trailer video {
     max-width: 900px;
